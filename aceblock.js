@@ -1,6 +1,6 @@
 
 const { RawHTML, Fragment } = wp.element;
-const { registerBlockType } = wp.blocks;
+const { registerBlockType, createBlock } = wp.blocks;
 
 import brace from 'brace';
 import AceEditor from 'react-ace';
@@ -21,9 +21,6 @@ registerBlockType( 'aceblock/aceblock', {
         content: {
             type: 'string',
             source: "html"
-        },
-        key: {
-            type: 'string'
         }
     },
     transforms: {

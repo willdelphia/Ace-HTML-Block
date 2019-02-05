@@ -23046,7 +23046,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 var _wp$element = wp.element,
     RawHTML = _wp$element.RawHTML,
     Fragment = _wp$element.Fragment;
-var registerBlockType = wp.blocks.registerBlockType;
+var _wp$blocks = wp.blocks,
+    registerBlockType = _wp$blocks.registerBlockType,
+    createBlock = _wp$blocks.createBlock;
 
 
 
@@ -23067,9 +23069,6 @@ registerBlockType('aceblock/aceblock', {
         content: {
             type: 'string',
             source: "html"
-        },
-        key: {
-            type: 'string'
         }
     },
     transforms: {
