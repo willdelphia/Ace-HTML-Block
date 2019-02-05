@@ -23043,9 +23043,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_brace_mode_html___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_brace_mode_html__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_brace_theme_tomorrow__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_brace_theme_tomorrow___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_brace_theme_tomorrow__);
-var _wp$element = wp.element,
-    RawHTML = _wp$element.RawHTML,
-    Fragment = _wp$element.Fragment;
+var RawHTML = wp.element.RawHTML;
 var _wp$blocks = wp.blocks,
     registerBlockType = _wp$blocks.registerBlockType,
     createBlock = _wp$blocks.createBlock;

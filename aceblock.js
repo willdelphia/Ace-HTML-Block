@@ -1,5 +1,5 @@
 
-const { RawHTML, Fragment } = wp.element;
+const { RawHTML } = wp.element;
 const { registerBlockType, createBlock } = wp.blocks;
 
 import brace from 'brace';
