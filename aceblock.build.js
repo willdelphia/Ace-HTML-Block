@@ -23060,7 +23060,7 @@ var _wp$blocks = wp.blocks,
 registerBlockType('aceblock/aceblock', {
     title: 'Ace HTML Block',
     icon: 'heart',
-    category: 'common',
+    category: 'formatting',
     supports: {
         className: false,
         html: false
@@ -23091,7 +23091,6 @@ registerBlockType('aceblock/aceblock', {
             }
         }]
     },
-
     edit: function edit(props) {
 
         var key = props.clientId;

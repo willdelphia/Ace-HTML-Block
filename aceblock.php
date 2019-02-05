@@ -5,9 +5,6 @@ Plugin Name: Ace HTML Block
 Description: HTML Block with ACE Editor
 Version:     1
 Author:      Will Delphia
-Author URI:  https://developer.wordpress.org/
-Text Domain: wporg
-Domain Path: /languages
 License:     GPL2
 */
 

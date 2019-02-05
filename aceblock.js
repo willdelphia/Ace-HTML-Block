@@ -12,7 +12,7 @@ import 'brace/theme/tomorrow';
 registerBlockType( 'aceblock/aceblock', {
     title: 'Ace HTML Block',
     icon: 'heart',
-    category: 'common',
+    category: 'formatting',
     supports: {
         className: false,
         html: false,
@@ -47,7 +47,6 @@ registerBlockType( 'aceblock/aceblock', {
             },
         ]
     },
-
     edit: function( props ) {
 
         var key = props.clientId;
@@ -92,7 +91,6 @@ registerBlockType( 'aceblock/aceblock', {
                     minLines = {3}
                     maxLines = {Infinity}
                 /> );
-
     },
 
     save: function( props ) {
