@@ -97,8 +97,8 @@ registerBlockType( 'aceblock/aceblock', {
                     height="auto"
                     width="100%"
                     wrapEnabled={true}
-                    minLines = {3}
-                    maxLines = {Infinity}
+                    minLines={3}
+                    maxLines={Infinity}
                 /> );
     },
 
