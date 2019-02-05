@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Ace HTML Block
-Description: HTML Block with ACE Editor
+Description: Raw  HTML Block with ACE Editor
 Version:     1
 Author:      Will Delphia
 License:     GPL2

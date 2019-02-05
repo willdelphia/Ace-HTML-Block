@@ -34,11 +34,20 @@ registerBlockType( 'aceblock/aceblock', {
                     } );
                 },
             },
+            {
+                type: 'block',
+                blocks: [ 'core/shortcode' ],
+                transform: function( attributes ) {
+                    return createBlock( 'core/shortcode', {
+                        content: attributes.content,
+                    } );
+                },
+            },
         ],
         from: [
             {
                 type: 'block',
-                blocks: [ 'core/html' ],
+                blocks: [ 'core/html', 'core/shortcode' ],
                 transform: function ( attributes ) {
                     return createBlock( 'aceblock/aceblock', {
                         content: attributes.content,
