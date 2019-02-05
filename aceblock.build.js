@@ -23056,7 +23056,7 @@ var _wp$blocks = wp.blocks,
 
 
 registerBlockType('aceblock/aceblock', {
-    title: 'Ace HTML Block',
+    title: 'ACE HTML Block',
     icon: 'heart',
     category: 'formatting',
     supports: {
