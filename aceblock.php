@@ -3,7 +3,7 @@
 /*
 Plugin Name: Ace HTML Block
 Description: Raw  HTML Block with ACE Editor
-Version:     1
+Version:     1.0.1
 Author:      Will Delphia
 License:     GPL2
 */
