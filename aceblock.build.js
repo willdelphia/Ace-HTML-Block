@@ -23143,7 +23143,11 @@ registerBlockType('aceblock/aceblock', {
     },
 
     save: function save(props) {
-        return el(RawHTML, null, props.attributes.content);
+        return wp.element.createElement(
+            RawHTML,
+            null,
+            props.attributes.content
+        );
     }
 });
 

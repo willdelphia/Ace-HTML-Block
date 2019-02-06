@@ -103,7 +103,7 @@ registerBlockType( 'aceblock/aceblock', {
     },
 
     save: function( props ) {
-        return  el(RawHTML, null, props.attributes.content);
+        return  <RawHTML>{props.attributes.content}</RawHTML>;
     }
  } 
 );
